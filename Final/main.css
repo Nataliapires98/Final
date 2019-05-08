@@ -1,0 +1,68 @@
+p {
+  font-family: "Times", Times New Roman, serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+ul{
+  list-style-type: none;
+}
+canvas {
+  position: fixed;
+}
+body {
+  background: #000;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: sans-serif;
+
+}
+#test {
+    opacity: 0;
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}​
+canvas {
+
+  width: 500vw;
+  height: 500vh;
+  display: block;
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Times", Times New Roman, serif;
+  font-size: 17px;
+  position: absolute;
+  color: black;
+  top: 0px;
+  left: 0;
+  width: 100%;
+}
+h4, h3{
+  text-transform: uppercase;
+}
+/* this part is for the fade in animation*/
+/* This transition property makes the text gradually fade in  */
+span {
+  -webkit-transition: color 2ms; /* Safari */
+  transition: color 2s;
+}
+
+.dimmed {
+  color: rgba(40, 40, 40, 1);
+}
